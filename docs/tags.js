@@ -1,7 +1,7 @@
 module.exports.tags = {
     tags: [
       {
-        name: "CRUD Posts",
+        name: "Operation of publication",
       },
     ],
   };

@@ -1,7 +1,7 @@
 module.exports = {
     /*La methode d'operations*/
     get: {
-      tags: ["CRUD Posts"], // operation's tag.
+      tags: ["get all"], // operation's tag.
       description: "get all publications",
       operationId: "getTodos", // unique operation id.
       parameters: [], // expected params.

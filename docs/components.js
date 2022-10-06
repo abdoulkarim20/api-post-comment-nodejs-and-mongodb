@@ -3,8 +3,8 @@ module.exports = {
         schemas: {
             id: {
                 type: "string",
-                description: "An id of a todo",
-                example: "tyVgf",
+                description: "Identifiant de la publications",
+                example: "cd46d6hdggdj4ndg",
             },
             /*Post model*/
             Posts: {

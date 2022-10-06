@@ -1,6 +1,6 @@
 module.exports = {
     get: {
-      tags: ["get one"], 
+      tags: ["Posts"], 
       description: "get one publication",
       operationId: "getPost",
       parameters: [

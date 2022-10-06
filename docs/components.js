@@ -27,8 +27,8 @@ module.exports = {
                     },
                 },
             },
-            /*La sortie du poste*/
-            Resultat: {
+            /*Les champs de saisie du post*/
+            champsSaisie: {
                 type: "object",
                 properties: {
                     auteur: {

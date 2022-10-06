@@ -11,7 +11,7 @@ module.exports = {
           // content-type
           "application/json": {
             schema: {
-              $ref: "#/components/schemas/Resultat", // todo input data model
+              $ref: "#/components/schemas/champsSaisie", // todo input data model
             },
           },
         },

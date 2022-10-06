@@ -1,6 +1,8 @@
 const allPosts = require("./allPosts");
 const createPost = require("./createPost");
+const deletePost = require("./deletePost");
 const getOnePost = require("./getOnePost");
+const updatePost = require("./updatePost");
 
 module.exports={
     paths:{
@@ -9,7 +11,9 @@ module.exports={
             ...allPosts
         },
         '/posts/{id}':{
-            ...getOnePost
+            ...getOnePost,
+            ...updatePost,
+            ...deletePost
         }
     }
 }
